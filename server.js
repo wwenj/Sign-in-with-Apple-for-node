@@ -22,7 +22,7 @@ const getAuthorizationUrl = () => {
 };
 //   生成JWT
 const getClientSecret = () => {
-	const privateKey = fs.readFileSync('./static/AuthKey_XHGXCP8B9S.txt', { encoding: "utf-8" });
+	const privateKey = fs.readFileSync('./static/AuthKey_XH*****B9S.txt', { encoding: "utf-8" });
 	const headers = {
 		alg: 'ES256',
 		kid: apple.key_id,

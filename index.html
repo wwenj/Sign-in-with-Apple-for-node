@@ -11,16 +11,17 @@
 
 <body>
 	<div class="login-btn" id="appleid-signin" data-color="black" data-border="true" data-type="sign in"></div>
+
 	<script type="text/javascript">
 		AppleID.auth.init({
 			response_type: 'code',
-			clientId: 'clientId',
+			clientId: 'com*************Apple',
 			scope: 'openid',
-			redirectURI: 'redirectURI',
+			redirectURI: 'http://******.com/appleAuth',
 			state: 'state'
 		});
 
-		var buttonElement = document.getElementById('appleid-signin');
+		const buttonElement = document.getElementById('appleid-signin');
 		buttonElement.addEventListener('click', () => {
 			AppleID.auth.signIn();
 		});
