@@ -1,0 +1,18 @@
+{
+  "name": "sign-in-with-apple-for-node",
+  "version": "1.0.0",
+  "description": "sign-in-with-apple demo",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "wwenj",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "node-rsa": "^1.0.6",
+    "querystring": "^0.2.0"
+  }
+}
